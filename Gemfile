@@ -28,6 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'spring', group: :development
+gem 'active_model_serializers'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -45,3 +46,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+

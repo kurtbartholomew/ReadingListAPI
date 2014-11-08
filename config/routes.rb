@@ -1,5 +1,5 @@
 ReadingList::Application.routes.draw do
-  resources :books, except: [:destroy, :update] 
+  resources :books, except: [:update] 
   resources :genres
   resources :finished_books
 end
